@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD9FB8622D4CFA770022D764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9FB8482D4CFA760022D764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9FB84F2D4CFA760022D764;
+			remoteInfo = XCResultJsonViewer;
+		};
+		DD9FB86C2D4CFA770022D764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9FB8482D4CFA760022D764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9FB84F2D4CFA760022D764;
+			remoteInfo = XCResultJsonViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD9FB8502D4CFA760022D764 /* XCResultJsonViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCResultJsonViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB8612D4CFA770022D764 /* XCResultJsonViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCResultJsonViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9FB86B2D4CFA770022D764 /* XCResultJsonViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCResultJsonViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD9FB8522D4CFA760022D764 /* XCResultJsonViewer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCResultJsonViewer;
+			sourceTree = "<group>";
+		};
+		DD9FB8642D4CFA770022D764 /* XCResultJsonViewerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCResultJsonViewerTests;
+			sourceTree = "<group>";
+		};
+		DD9FB86E2D4CFA770022D764 /* XCResultJsonViewerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XCResultJsonViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9FB84D2D4CFA760022D764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB85E2D4CFA770022D764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB8682D4CFA770022D764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9FB8472D4CFA760022D764 = {
+			isa = PBXGroup;
+			children = (
+				DD9FB8522D4CFA760022D764 /* XCResultJsonViewer */,
+				DD9FB8642D4CFA770022D764 /* XCResultJsonViewerTests */,
+				DD9FB86E2D4CFA770022D764 /* XCResultJsonViewerUITests */,
+				DD9FB8512D4CFA760022D764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9FB8512D4CFA760022D764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9FB8502D4CFA760022D764 /* XCResultJsonViewer.app */,
+				DD9FB8612D4CFA770022D764 /* XCResultJsonViewerTests.xctest */,
+				DD9FB86B2D4CFA770022D764 /* XCResultJsonViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9FB84F2D4CFA760022D764 /* XCResultJsonViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB8752D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewer" */;
+			buildPhases = (
+				DD9FB84C2D4CFA760022D764 /* Sources */,
+				DD9FB84D2D4CFA760022D764 /* Frameworks */,
+				DD9FB84E2D4CFA760022D764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD9FB8522D4CFA760022D764 /* XCResultJsonViewer */,
+			);
+			name = XCResultJsonViewer;
+			packageProductDependencies = (
+			);
+			productName = XCResultJsonViewer;
+			productReference = DD9FB8502D4CFA760022D764 /* XCResultJsonViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9FB8602D4CFA770022D764 /* XCResultJsonViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB8782D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewerTests" */;
+			buildPhases = (
+				DD9FB85D2D4CFA770022D764 /* Sources */,
+				DD9FB85E2D4CFA770022D764 /* Frameworks */,
+				DD9FB85F2D4CFA770022D764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9FB8632D4CFA770022D764 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD9FB8642D4CFA770022D764 /* XCResultJsonViewerTests */,
+			);
+			name = XCResultJsonViewerTests;
+			packageProductDependencies = (
+			);
+			productName = XCResultJsonViewerTests;
+			productReference = DD9FB8612D4CFA770022D764 /* XCResultJsonViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9FB86A2D4CFA770022D764 /* XCResultJsonViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9FB87B2D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewerUITests" */;
+			buildPhases = (
+				DD9FB8672D4CFA770022D764 /* Sources */,
+				DD9FB8682D4CFA770022D764 /* Frameworks */,
+				DD9FB8692D4CFA770022D764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9FB86D2D4CFA770022D764 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD9FB86E2D4CFA770022D764 /* XCResultJsonViewerUITests */,
+			);
+			name = XCResultJsonViewerUITests;
+			packageProductDependencies = (
+			);
+			productName = XCResultJsonViewerUITests;
+			productReference = DD9FB86B2D4CFA770022D764 /* XCResultJsonViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9FB8482D4CFA760022D764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DD9FB84F2D4CFA760022D764 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DD9FB8602D4CFA770022D764 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD9FB84F2D4CFA760022D764;
+					};
+					DD9FB86A2D4CFA770022D764 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD9FB84F2D4CFA760022D764;
+					};
+				};
+			};
+			buildConfigurationList = DD9FB84B2D4CFA760022D764 /* Build configuration list for PBXProject "XCResultJsonViewer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9FB8472D4CFA760022D764;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD9FB8512D4CFA760022D764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9FB84F2D4CFA760022D764 /* XCResultJsonViewer */,
+				DD9FB8602D4CFA770022D764 /* XCResultJsonViewerTests */,
+				DD9FB86A2D4CFA770022D764 /* XCResultJsonViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9FB84E2D4CFA760022D764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB85F2D4CFA770022D764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB8692D4CFA770022D764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9FB84C2D4CFA760022D764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB85D2D4CFA770022D764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9FB8672D4CFA770022D764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9FB8632D4CFA770022D764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9FB84F2D4CFA760022D764 /* XCResultJsonViewer */;
+			targetProxy = DD9FB8622D4CFA770022D764 /* PBXContainerItemProxy */;
+		};
+		DD9FB86D2D4CFA770022D764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9FB84F2D4CFA760022D764 /* XCResultJsonViewer */;
+			targetProxy = DD9FB86C2D4CFA770022D764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD9FB8732D4CFA770022D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9FB8742D4CFA770022D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD9FB8762D4CFA770022D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XCResultJsonViewer/XCResultJsonViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCResultJsonViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "XCReult Json Viewer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD9FB8772D4CFA770022D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XCResultJsonViewer/XCResultJsonViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCResultJsonViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "XCReult Json Viewer";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD9FB8792D4CFA770022D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCResultJsonViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCResultJsonViewer";
+			};
+			name = Debug;
+		};
+		DD9FB87A2D4CFA770022D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCResultJsonViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/XCResultJsonViewer";
+			};
+			name = Release;
+		};
+		DD9FB87C2D4CFA770022D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = XCResultJsonViewer;
+			};
+			name = Debug;
+		};
+		DD9FB87D2D4CFA770022D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PLD5VHEP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andres.paladines.report.viewer.XCResultJsonViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = XCResultJsonViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9FB84B2D4CFA760022D764 /* Build configuration list for PBXProject "XCResultJsonViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB8732D4CFA770022D764 /* Debug */,
+				DD9FB8742D4CFA770022D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB8752D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB8762D4CFA770022D764 /* Debug */,
+				DD9FB8772D4CFA770022D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB8782D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB8792D4CFA770022D764 /* Debug */,
+				DD9FB87A2D4CFA770022D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9FB87B2D4CFA770022D764 /* Build configuration list for PBXNativeTarget "XCResultJsonViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9FB87C2D4CFA770022D764 /* Debug */,
+				DD9FB87D2D4CFA770022D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9FB8482D4CFA760022D764 /* Project object */;
+}
